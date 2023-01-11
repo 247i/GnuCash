@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf8" ?>
+<!DOCTYPE GWEN_PluginDescr SYSTEM "gwen/plugindescr.xsd" >
+
+<plugin name="xmldb" type="dbio" i18n="gwenhywfar" >
+  <version>5.9.0</version>
+  <author>Martin Preuss(martin@libchipcard.de)</author>
+  <short>Importer for XML</short>
+  <descr>
+    This plugin imports data from an XML file.
+  </descr>
+</plugin>

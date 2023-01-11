@@ -1,0 +1,31 @@
+# pkg-config configuration for libchipcard-client
+# For information about the syntax, see pkg-config(1)
+
+# General installation directories
+prefix=/c/gcdev64/gnucash/releases/inst
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+pkgdatadir=${datadir}/chipcard
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+bindir=${exec_prefix}/bin
+sysconfdir=${prefix}/etc
+
+# Particular variables of libchipcard-client
+vmajor=5
+vminor=1
+vpatchlevel=6
+vbuild=0
+vtag=stable
+vstring=5.1.6
+
+# Human-readable name
+Name: libchipcardc
+# Human-readable description
+Description: A multi-platform client library to connect with a libchipcard server
+
+Version: 5.1.6
+Libs: -L${libdir} -lchipcard
+Cflags: -I${prefix}/include/libchipcard5 -I/c/gcdev64/gnucash/releases/inst/include/gwenhywfar5 
+

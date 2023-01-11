@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_SECURITY" type="pointer" lang="c" extends="struct_base">
+    <identifier>AB_SECURITY</identifier>
+    <prefix>AB_Security</prefix>
+  </typedef>
+</tm2>

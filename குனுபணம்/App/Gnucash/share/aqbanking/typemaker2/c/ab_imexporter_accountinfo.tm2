@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_IMEXPORTER_ACCOUNTINFO" type="pointer" lang="c" extends="struct_base">
+    <identifier>AB_IMEXPORTER_ACCOUNTINFO</identifier>
+    <prefix>AB_ImExporterAccountInfo</prefix>
+  </typedef>
+</tm2>

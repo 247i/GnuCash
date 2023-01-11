@@ -1,0 +1,30 @@
+prefix=/c/gcdev64/gnucash/releases/inst
+exec_prefix=/c/gcdev64/gnucash/releases/inst
+bindir=/c/gcdev64/gnucash/releases/inst/bin
+libdir=/c/gcdev64/gnucash/releases/inst/lib
+includedir=/c/gcdev64/gnucash/releases/inst/include
+datarootdir=/c/gcdev64/gnucash/releases/inst/share
+datadir=/c/gcdev64/gnucash/releases/inst/share
+pkgdatadir=/c/gcdev64/gnucash/releases/inst/share/guile
+pkgincludedir=/c/gcdev64/gnucash/releases/inst/include/guile
+
+sitedir=/c/gcdev64/gnucash/releases/inst/share/guile/site/2.2
+extensiondir=/c/gcdev64/gnucash/releases/inst/lib/guile/2.2/extensions
+siteccachedir=/c/gcdev64/gnucash/releases/inst/lib/guile/2.2/site-ccache
+libguileinterface=5:2:4
+
+# Actual name of the 'guile' and 'guild' programs.  This is
+# particularly useful when '--program-transform-name' or similar has
+# been used.
+guild=${bindir}/guild
+guile=${bindir}/guile
+
+Name: GNU Guile
+Description: GNU's Ubiquitous Intelligent Language for Extension
+Version: 2.2.7.3-5ef31
+Libs: -L${libdir} -lguile-2.2 -LC:/gcdev64/gnucash/releases/inst/lib -lgc
+Libs.private:  /c/gcdev64/msys2/mingw32/lib/libgmp.dll.a /c/gcdev64/msys2/mingw32/lib/libltdl.dll.a -LC:/gcdev64/msys2/mingw32/lib/../lib -lffi	\
+  /c/gcdev64/gnucash/releases/inst/lib/libunistring.dll.a -lws2_32  -lm /c/gcdev64/msys2/mingw32/lib/libiconv.dll.a /c/gcdev64/msys2/mingw32/lib/libintl.dll.a -lws2_32		\
+  -lws2_32 -lws2_32 -lws2_32 -lws2_32		\
+  -lws2_32
+Cflags: -I${pkgincludedir}/2.2 -I/c/gcdev64/msys2/mingw32/include -I/usr/include -I/c/gcdev64/gnucash/releases/inst/include  

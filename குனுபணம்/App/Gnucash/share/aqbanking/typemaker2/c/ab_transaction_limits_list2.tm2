@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_TRANSACTION_LIMITS_LIST2" type="pointer" lang="c" extends="list2_base" basetype="AB_TRANSACTION_LIMITS">
+    <identifier>AB_TRANSACTION_LIMITS_LIST2</identifier>
+    <prefix>AB_TransactionLimits_List2</prefix>
+  </typedef>
+</tm2>

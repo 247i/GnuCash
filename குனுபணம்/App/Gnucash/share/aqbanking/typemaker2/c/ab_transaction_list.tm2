@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_TRANSACTION_LIST" type="pointer" lang="c" extends="list1_base" basetype="AB_TRANSACTION">
+    <identifier>AB_TRANSACTION_LIST</identifier>
+    <prefix>AB_Transaction_List</prefix>
+  </typedef>
+</tm2>

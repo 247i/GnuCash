@@ -1,0 +1,9 @@
+<plugin name="xml" type="imexporter" import="1" export="1" i18n="aqbanking" >
+  <version>6.5.0</version>
+  <author>Martin Preuss(martin@libchipcard.de)</author>
+  <short>XML</short>
+  <descr>
+    This plugin imports XML data.
+  </descr>
+</plugin>
+

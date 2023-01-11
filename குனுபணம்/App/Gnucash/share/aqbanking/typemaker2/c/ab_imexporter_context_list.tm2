@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_IMEXPORTER_CONTEXT_LIST" type="pointer" lang="c" extends="list1_base" basetype="AB_IMEXPORTER_CONTEXT">
+    <identifier>AB_IMEXPORTER_CONTEXT_LIST</identifier>
+    <prefix>AB_ImExporterContext_List</prefix>
+  </typedef>
+</tm2>

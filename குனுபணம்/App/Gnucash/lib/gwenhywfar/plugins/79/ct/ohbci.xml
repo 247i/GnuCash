@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf8"?>
+
+<plugin type="ct" name="ohbci" device="file" i18n="gwenhywfar" >
+  <version>0.1.0</version>
+  <author>Martin Preuss (martin@libchipcard.de)</author>
+  <short>OpenHBCI Keyfile Medium</short>
+
+  <descr>
+    This plugins provides support for keyfiles created with OpenHBCI1
+    and OpenHBCI2. 
+    
+    The file is encrypted with a password using the 3DES 
+    algorithm and it stores the private and public RSA keys.
+  </descr>
+
+</plugin>
+
+

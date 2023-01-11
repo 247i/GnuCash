@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_SWIFT_DESCR_LIST" type="pointer" lang="c" extends="list1_base" basetype="AB_SWIFT_DESCR">
+    <identifier>AB_SWIFT_DESCR_LIST</identifier>
+    <prefix>AB_SwiftDescr_List</prefix>
+  </typedef>
+</tm2>

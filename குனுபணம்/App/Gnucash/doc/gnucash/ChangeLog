@@ -1,0 +1,1924 @@
+2022-06-25 John Ralls 
+
+	* Release GnuCash 4.11 (HEAD -> maint, tag: 4.11, origin/maint)
+
+2022-06-25 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2022-06-25 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-25 mocsa 
+
+	* Translation update  by mocsa <csaba@feltoltve.hu> using Weblate
+
+2022-06-25 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-25 Frank H. Ellenberger 
+
+	* Merge remote-tracking branch 'weblate/maint' into maint
+
+2022-06-25 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-25 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-25 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-25 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-25 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-25 Simon Arlott 
+
+	* L10N:new en_AU, en_NZ
+
+2022-06-24 Frank H. Ellenberger 
+
+	* Merge PR #1358 into maint
+
+2022-06-24 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-24 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2022-06-24 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2022-06-24 Simon Arlott 
+
+	* Translation update  by Simon Arlott <weblate.simon@arlott.org> using Weblate
+
+2022-06-24 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2022-06-24 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2022-06-22 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2022-06-22 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2022-06-22 Jaime Marquínez Ferrándiz 
+
+	* Translation update  by Jaime Marquínez Ferrándiz <weblate@jregistros.fastmail.net> using Weblate
+
+2022-06-22 Artem 
+
+	* Translation update  by Artem <artem@molotov.work> using Weblate
+
+2022-06-22 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2022-06-22 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2022-06-22 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-06-22 Giuseppe Foti 
+
+	* Translation update  by Giuseppe Foti <foti.giuseppe@gmail.com> using Weblate
+
+2022-06-22 Yuri Chornoivan 
+
+	* Translation update  by Yuri Chornoivan <yurchor@ukr.net> using Weblate
+
+2022-06-22 Petter Reinholdtsen 
+
+	* Translation update  by Petter Reinholdtsen <pere-weblate@hungry.com> using Weblate
+
+2022-06-22 Maxime Leroy 
+
+	* Translation update  by Maxime Leroy <lisacintosh@gmail.com> using Weblate
+
+2022-06-22 Jaime Marquínez Ferrándiz 
+
+	* Translation update  by Jaime Marquínez Ferrándiz <weblate@jregistros.fastmail.net> using Weblate
+
+2022-06-22 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2022-06-22 Eric 
+
+	* Translation update  by Eric <alchemillatruth@purelymail.com> using Weblate
+
+2022-06-21 John Ralls 
+
+	* Lock down GITHUB_TOKEN permissions on workflows.
+
+2022-06-21 Christopher Lam 
+
+	* [gnucash.cpp] char* must be freed.
+
+2022-06-21 Christopher Lam 
+
+	* [assistant-stock-transaction] dividends must include stock account
+
+2022-06-21 Christopher Lam 
+
+	* [assistant-stock-transaction.glade] remove unused comments
+
+2022-06-21 Frank H. Ellenberger 
+
+	* L10N: msgmerge gnucash-4.11-pre1.pot
+
+2022-06-19 Frank H. Ellenberger 
+
+	* I18N: Replace "Broker Fees" by the already used "Brokerage Fees"
+
+2022-06-20 Frank H. Ellenberger 
+
+	* I18N: Add POTFILES.ignore
+
+2022-06-20 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2022-06-18 Christopher Lam 
+
+	* [assistant-stock-transaction] remove context for transaction types
+
+2022-06-18 Christopher Lam 
+
+	* [assistant-stock-transaction] remove unused identifier
+
+2022-06-18 Frank H. Ellenberger 
+
+	* I18N: Format of a few translator comments
+
+2022-06-18 Frank H. Ellenberger 
+
+	* L10N:de: several fixes mostly of the previous commit
+
+2022-06-16 WaldiS 
+
+	* Translation update  by WaldiS <sto@tutanota.de> using Weblate
+
+2022-06-16 Steffen Möller 
+
+	* Translation update  by Steffen Möller <steffen_moeller@gmx.de> using Weblate
+
+2022-06-16 Hemanshu Kumar 
+
+	* Translation update  by Hemanshu Kumar <hemanshusubs@gmail.com> using Weblate
+
+2022-06-14 John Ralls 
+
+	* Fix arch linux CI build failures.
+
+2022-06-12 WaldiS 
+
+	* Translation update  by WaldiS <sto@tutanota.de> using Weblate
+
+2022-06-12 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2022-06-12 Luna Jernberg 
+
+	* Translation update  by Luna Jernberg <droidbittin@gmail.com> using Weblate
+
+2022-06-12 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-06-12 Hemanshu Kumar 
+
+	* Translation update  by Hemanshu Kumar <hemanshusubs@gmail.com> using Weblate
+
+2022-06-08 Frank H. Ellenberger 
+
+	* Translation update  by Frank H. Ellenberger <frank.h.ellenberger@gmail.com> using Weblate
+
+2022-06-08 МАН69К 
+
+	* Translation update  by МАН69К <weblate@mah69k.net> using Weblate
+
+2022-06-08 Allan Nordhøy 
+
+	* Translation update  by Allan Nordhøy <epost@anotheragency.no> using Weblate
+
+2022-06-08 Joachim Wetzig 
+
+	* Translation update  by Joachim Wetzig <jo.wetzig@web.de> using Weblate
+
+2022-06-04 Robert Fewell 
+
+	* Change source files dialog-fincalc.* for spaces and tabs
+
+2022-06-04 Robert Fewell 
+
+	* Merge Christian Wehling's  'FinCalc help-buttons' into maint
+
+2022-06-02 John Ralls 
+
+	* Bug 798547 - Calculated Due Date is short 1 day when posting on...
+
+2022-06-02 John Ralls 
+
+	* Bug 798533 - Crash when importing quicken @ currency
+
+2022-05-30 Christian Wehling 
+
+	* [dialog-fincalc.glade] Inserting a help button
+
+2022-05-27 Taehun Yun 
+
+	* Translation update  by Taehun Yun <yooontehoon@naver.com> using Weblate
+
+2022-05-24 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2022-05-24 Taehun Yun 
+
+	* Translation update  by Taehun Yun <yooontehoon@naver.com> using Weblate
+
+2022-05-22 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-05-21 John Ralls 
+
+	* Merge Christian Wehling's 'SLR help-buttons' into maint.
+
+2022-05-20 Sherif ElGamal 
+
+	* Translation update  by Sherif ElGamal <selgamal0@gmail.com> using Weblate
+
+2022-05-20 Taehun Yun 
+
+	* Translation update  by Taehun Yun <yooontehoon@naver.com> using Weblate
+
+2022-05-20 John Ralls 
+
+	* Bug 798531 - Selecting "Print" from the file menu on a report...
+
+2022-05-14 Christian Wehling 
+
+	* Bug 771095, partially solved. Inserting a help button in the Since-Last-Run dialog.
+
+2022-05-20 Frank H. Ellenberger 
+
+	* L10N:de: Translators maintenance
+
+2022-05-19 Jan Schneider 
+
+	* Translation update  by Jan Schneider <grimpeur78@gmail.com> using Weblate
+
+2022-05-19 Taehun Yun 
+
+	* Translation update  by Taehun Yun <yooontehoon@naver.com> using Weblate
+
+2022-05-06 Christopher Lam 
+
+	* [assistant-stock-transaction] guard against nullopts
+
+2022-05-18 Christopher Lam 
+
+	* Bug 798535 - Crash when increasing the number of periods in a budget
+
+2022-05-16 Yu Hongbo 
+
+	* Translation update  by Yu Hongbo <linuxbckp@gmail.com> using Weblate
+
+2022-05-16 Diggaj Upadhyay 
+
+	* Translation update  by Diggaj Upadhyay <dcozupadhyay@duck.com> using Weblate
+
+2022-05-16 Taehun Yun 
+
+	* Translation update  by Taehun Yun <yooontehoon@naver.com> using Weblate
+
+2022-05-16 ltai0001 
+
+	* Translation update  by ltai0001 <yltaief@gmail.com> using Weblate
+
+2022-05-14 Taehun Yun 
+
+	* Translation update  by Taehun Yun <yooontehoon@naver.com> using Weblate
+
+2022-05-12 Taehun Yun 
+
+	* Translation update  by Taehun Yun <yooontehoon@naver.com> using Weblate
+
+2022-05-12 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-05-12 S 
+
+	* Translation update  by S <t0kie@mailbox.org> using Weblate
+
+2022-05-12 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2022-05-12 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2022-05-12 Cow 
+
+	* Translation update  by Cow <javier.fserrador@gmail.com> using Weblate
+
+2022-05-08 Robert Fewell 
+
+	* Bug 798053 - Accounts renumeration (renumbering)
+
+2022-05-08 Robert Fewell 
+
+	* Change source files dialog-account.* for spaces and tabs
+
+2022-05-06 Robert Fewell 
+
+	* Correct some text describing some date functions.
+
+2022-04-29 Robert Fewell 
+
+	* Bug 798501 - Balance wrong date end of account period
+
+2022-05-05 Christopher Lam 
+
+	* [assistant-stock-transaction] avoid resetting txn_types unnecessarily.
+
+2022-05-06 Christopher Lam 
+
+	* [assistant-stock-transsaction] skip checking txn_date for empty stock acct
+
+2022-05-05 Christopher Lam 
+
+	* Merge branch 'maint-stock-assistant' into maint #1328
+
+2022-05-04 Christopher Lam 
+
+	* [assistant-stock-transaction] use std::optional
+
+2022-05-04 Christopher Lam 
+
+	* [assistant-stock-transaction] reorder of Pages - date before type.
+
+2022-05-04 Christopher Lam 
+
+	* [assistant-stock-transaction] warn if TxnDate < latest Stock Txn
+
+2022-05-02 Christopher Lam 
+
+	* [assistant-stock-transaction] refactor to allow warnings
+
+2022-05-03 Christopher Lam 
+
+	* [assistant-stock-transaction.glade] don't translate placeholder text
+
+2022-05-02 Christopher Lam 
+
+	* use (string-concatenate ...) instead of (apply string-append ...)
+
+2022-04-29 John Ralls 
+
+	* https://bugs.gnucash.org/show_bug.cgi?id=798491
+
+2022-04-29 John Ralls 
+
+	* [import matcher] Only append description if there's something to append to.
+
+2022-04-29 John Ralls 
+
+	* [import matcher] NULL protect g_utf8_normalize
+
+2022-04-29 Szia Tomi 
+
+	* Translation update  by Szia Tomi <sziatomi01@gmail.com> using Weblate
+
+2022-04-29 Cow 
+
+	* Translation update  by Cow <javier.fserrador@gmail.com> using Weblate
+
+2022-04-24 Christopher Lam 
+
+	* [balsheet-pnl] test "lvl <= depth-limit" outside add-indented-row
+
+2022-04-22 Alex Aycinena 
+
+	* reverse commit d48937c. See discussion in Bug #79769.
+
+2022-04-21 Alex Aycinena 
+
+	* Bug #79769 - Allow US Income Tax txf code 296 (Returns and allowances) to be shown and assignable for both income and expense type accounts.
+
+2022-04-21 Petter Reinholdtsen 
+
+	* Translation update  by Petter Reinholdtsen <pere-weblate@hungry.com> using Weblate
+
+2022-04-21 Aleksandar Hadzhivelichkov 
+
+	* Translation update  by Aleksandar Hadzhivelichkov <Raphaelo245@gmail.com> using Weblate
+
+2022-04-20 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2022-04-20 ltai0001 
+
+	* Translation update  by ltai0001 <yltaief@gmail.com> using Weblate
+
+2022-04-20 Alex Aycinena 
+
+	* Bug 798471 - include hidden accounts in account tree view in Edit->Tax Report Options->Income Tax Information dialog.
+
+2022-04-19 Christopher Lam 
+
+	* [gnc-main-window] page->window is not main_window, skip warning
+
+2022-04-19 Christopher Lam 
+
+	* [gnc-plugin-page-register] if account==NULL, skip AccountIsPriced
+
+2022-04-19 Christopher Lam 
+
+	* [gnc-sx-instance-model.c] leak: don't strdup char* for xaccTransSetNotes
+
+2022-04-17 Christopher Lam 
+
+	* [gnc-account-sel.c] prepend & reverse while building acct list
+
+2022-04-16 154pinkchairs 
+
+	* Translation update  by 154pinkchairs <ovehis@riseup.net> using Weblate
+
+2022-04-16 Cow 
+
+	* Translation update  by Cow <javier.fserrador@gmail.com> using Weblate
+
+2022-04-16 John Ralls 
+
+	* Fix use-after-free in unable to save database dialog.
+
+2022-04-16 Christopher Lam 
+
+	* Merge branch 'maint-account-cpp' breadthwise search into maint #1319
+
+2022-04-15 Christopher Lam 
+
+	* [account.cpp] restore breadth-first search for 2 functions
+
+2022-04-15 Christopher Lam 
+
+	* Merge branch 'maint-progress1' into maint #1306
+
+2022-04-15 Christopher Lam 
+
+	* [reports] use new function names
+
+2022-04-07 Christopher Lam 
+
+	* [html-acct-table] deprecate gnc:account-path-less-p
+
+2022-04-02 Christopher Lam 
+
+	* [report-utilities.scm] deprecate gnc:accounts-and-all-descendants
+
+2022-04-02 Christopher Lam 
+
+	* [account.cpp] gnc_accounts_and_all_descendants converted from scm
+
+2022-04-13 154pinkchairs 
+
+	* Translation update  by 154pinkchairs <ovehis@riseup.net> using Weblate
+
+2022-04-13 Frank H. Ellenberger 
+
+	* Drop duplicate 'en_US.UTF-8 UTF-8' from archlinux-test
+
+2022-04-12 John Ralls 
+
+	* [CI]Work around new git security measure. This one works.
+
+2022-04-12 John Ralls 
+
+	* [CI]Work around new git security measure.
+
+2022-04-12 Cow 
+
+	* Translation update  by Cow <javier.fserrador@gmail.com> using Weblate
+
+2022-04-12 154pinkchairs 
+
+	* Translation update  by 154pinkchairs <ovehis@riseup.net> using Weblate
+
+2022-04-12 Frank H. Ellenberger 
+
+	* Merge PR #1309 into maint
+
+2022-04-10 ltai0001 
+
+	* Translation update  by ltai0001 <yltaief@gmail.com> using Weblate
+
+2022-04-11 Christopher Lam 
+
+	* [balsheet-pnl] faster definition of balance lists
+
+2022-04-10 Christopher Lam 
+
+	* Merge branch 'maint-progress3' into maint #1312
+
+2022-04-10 Christopher Lam 
+
+	* Merge branch 'maint-progress2' into maint #1311
+
+2022-04-06 Christopher Lam 
+
+	* Bug 797163 - qof_book_get_option segfaults when retrieving a non-leaf frame
+
+2022-04-06 Christopher Lam 
+
+	* [kvp-frame.cpp] expose iterator, skip inexistent frame
+
+2022-04-08 Christopher Lam 
+
+	* [gnc-numeric.cpp] Reduce logging level of gnc_numeric exception message
+
+2022-04-05 Christopher Lam 
+
+	* Bug 798496 - gncEntry Quantity and Discount are misusing commodity scu
+
+2022-04-01 luz paz 
+
+	* Fix various typos
+
+2022-04-05 Christopher Lam 
+
+	* Bug 798493 - Invoice Report Quantity & Unit Price fields have limited decimal precision on printed invoices
+
+2022-04-08 Christopher Lam 
+
+	* [qofutil.h] don't recurse includes
+
+2022-04-07 John Ralls 
+
+	* Fix gcc compilation errors.
+
+2022-04-07 John Ralls 
+
+	* Fix wrong date of beginning of epoch.
+
+2022-04-06 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2022-04-06 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-04-06 ltai0001 
+
+	* Translation update  by ltai0001 <yltaief@gmail.com> using Weblate
+
+2022-03-26 Christopher Lam 
+
+	* [gnc-plugin-page-register] use gnc_g_list_stringjoin to store .gcm
+
+2022-03-26 Christopher Lam 
+
+	* [gnc-plugin-page-register] use gnc_g_list_stringjoin to set tooltip
+
+2022-04-02 John Ralls 
+
+	* Bug 798500 - FTBFS (tests failure) on armhf
+
+2022-04-05 Christopher Lam 
+
+	* Bug 798499 - Expense Chart data tables include extra columns of data
+
+2022-04-03 Geert Janssens 
+
+	* Remove icon experiment that accidentally slipped through.
+
+2022-04-03 Geert Janssens 
+
+	* Redo icon handling in cmake
+
+2022-04-02 Christopher Lam 
+
+	* [account.cpp] char* must be freed
+
+2022-04-02 Christopher Lam 
+
+	* [core-utils.i] Use g_dpgettext2 instead of g_dpgettext
+
+2022-03-31 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-03-31 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-03-31 ltai0001 
+
+	* Translation update  by ltai0001 <yltaief@gmail.com> using Weblate
+
+2022-03-31 Christopher Lam 
+
+	* Merge branch 'maint-after-string-thaw' into maint #1295
+
+2022-03-27 John Ralls 
+
+	* [QIF import] fix misplaced paren.
+
+2022-03-27 John Ralls 
+
+	* Fix wrong GNC-COMMODITY-NS-ISO4217
+
+2022-03-26 John Ralls 
+
+	* Release GnuCash 4.10 (tag: 4.10)
+
+2022-03-26 John Ralls 
+
+	* [L10N] Update Hungarian translator-credits
+
+2022-03-25 ButterflyOfFire 
+
+	* Translation update  by ButterflyOfFire <ButterflyOfFire@protonmail.com> using Weblate
+
+2022-03-25 154pinkchairs 
+
+	* Translation update  by 154pinkchairs <ovehis@riseup.net> using Weblate
+
+2022-03-25 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2022-03-25 John Ralls 
+
+	* [python]Remove non-namespace "All non-currency" fom namespace test.
+
+2022-03-24 John Ralls 
+
+	* Rework default non-currency commodity namespace.
+
+2022-03-25 Christopher Lam 
+
+	* [test-balsheet-pnl] there's a <hr> between income&exp and net-income
+
+2022-03-23 Christopher Lam 
+
+	* [income-statement] single-column doesn't need separate inc/exp tables
+
+2022-03-23 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-03-23 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-03-21 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2022-03-20 Christopher Lam 
+
+	* [gnc-xml-backend.cpp] gchar* must be freed after use.
+
+2022-03-20 John Ralls 
+
+	* Merge Christoph Holterman's 'python-gnc-numeric' into maint.
+
+2022-03-19 Christoph Holtermann 
+
+	* make GncNumeric.invert() return GncNumeric
+
+2022-03-19 Christoph Holtermann 
+
+	* Implement some comparisons and arithmetics for GncNumeric
+
+2022-03-20 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-03-20 Petter Reinholdtsen 
+
+	* Translation update  by Petter Reinholdtsen <pere-weblate@hungry.com> using Weblate
+
+2022-03-20 Giuseppe Foti 
+
+	* Translation update  by Giuseppe Foti <foti.giuseppe@gmail.com> using Weblate
+
+2022-03-20 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2022-03-20 Christopher Lam 
+
+	* Use original guile variable names changed in #1073
+
+2022-03-20 Christopher Lam 
+
+	* Fix typo in guile variable names in 1373233cd
+
+2022-03-18 Christopher Lam 
+
+	* [kvp-frame.cpp] minor speedups
+
+2022-03-17 Christopher Lam 
+
+	* [reconcile-view.c] prepend & reverse
+
+2022-03-16 Christopher Lam 
+
+	* use gtk_tree_view_get_n_columns
+
+2022-03-16 Christopher Lam 
+
+	* [gnc-plugin-budget] remove logger when closing budget
+
+2022-03-14 Christopher Lam 
+
+	* [assistant-stock-transaction] better Dr/Cr imbalance error message
+
+2022-03-15 Tomáš Václavík 
+
+	* Translation update  by Tomáš Václavík <t3vaclavik@gmail.com> using Weblate
+
+2022-03-15 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2022-03-15 Zdenko Podobný 
+
+	* Translation update  by Zdenko Podobný <zdenop@gmail.com> using Weblate
+
+2022-03-15 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-03-14 John Ralls 
+
+	* Merge Chris Lam's 'budget-sensitive-readonly' into maint.
+
+2022-03-14 John Ralls 
+
+	* Merge Simon Arlott's 'temporary-cut-txn-warning' into maint.
+
+2022-03-14 John Ralls 
+
+	* Merge Bob Fewell's 'rtl' into maint.
+
+2022-03-07 Robert Fewell 
+
+	* Invoice status bar currencies not displayed correctly for Hebrew
+
+2022-03-06 Robert Fewell 
+
+	* Register status bar currencies not displayed correctly for Hebrew
+
+2021-11-12 Robert Fewell 
+
+	* Summary bar currencies not displayed correctly for Hebrew
+
+2021-11-03 Robert Fewell 
+
+	* Bug797501 - Currency symbols in Hebrew (RTL) language
+
+2022-03-13 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-03-13 Arve Eriksson 
+
+	* Translation update  by Arve Eriksson <031299870@telia.com> using Weblate
+
+2022-03-13 Zdenko Podobný 
+
+	* Translation update  by Zdenko Podobný <zdenop@gmail.com> using Weblate
+
+2022-03-13 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-03-14 Christopher Lam 
+
+	* [assistant-stock-transaction.cpp] more sanity checks
+
+2022-03-13 John Ralls 
+
+	* Bug 798474 - Windows 10: Mouse scroll wheel on register...
+
+2022-03-13 Christopher Lam 
+
+	* [assistant-stock-transaction.glade] fix incorrect sentences
+
+2022-03-13 Simon Arlott 
+
+	* Fix suppression of "cut split/transaction" warnings for the current session
+
+2022-03-12 Christopher Lam 
+
+	* [assistant-stock-transaction] don't translate placeholder labels
+
+2022-03-12 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-03-12 Petter Reinholdtsen 
+
+	* Translation update  by Petter Reinholdtsen <pere-weblate@hungry.com> using Weblate
+
+2022-03-12 Maxime Leroy 
+
+	* Translation update  by Maxime Leroy <lisacintosh@gmail.com> using Weblate
+
+2022-03-12 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2022-03-12 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2022-03-12 Yuri Chornoivan 
+
+	* Translation update  by Yuri Chornoivan <yurchor@ukr.net> using Weblate
+
+2022-03-12 Eric 
+
+	* Translation update  by Eric <alchemillatruth@purelymail.com> using Weblate
+
+2022-03-12 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-03-12 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-03-12 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-03-12 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-03-11 John Ralls 
+
+	* Restore Scheme definitions of GNC-COMMODITY-NS-CURRENCY & -NONCURRENCY.
+
+2022-03-11 Christopher Lam 
+
+	* Merge branch 'maint-stock-editor' into maint #818
+
+2022-03-11 Christopher Lam 
+
+	* Add hook to stock transaction GtkAssistant
+
+2022-03-11 Christopher Lam 
+
+	* Bug 798004 - Next gen UI for stock transactions
+
+2022-03-11 Christopher Lam 
+
+	* [gnc-pricedb] add user:stock-transaction price source
+
+2022-03-11 Christopher Lam 
+
+	* Merge branch 'exxus-category-barchart-patch' into maint #1274
+
+2022-03-11 Christopher Lam 
+
+	* Merge branch 'maint-progress0' into maint #1286
+
+2022-03-06 John Ralls 
+
+	* Better wording for tax table changed info message.
+
+2022-03-06 John Ralls 
+
+	* [register] Checkbox any value other than 0x20 (ASCII space) is true.
+
+2022-03-10 John Ralls 
+
+	* Merge AQBanking Assistant Clarification into maint.
+
+2022-01-09 Robert Fewell 
+
+	* [aqb] Remove MSWindows term wizard.
+
+2022-03-02 Christopher Lam 
+
+	* [gnc-budget-view] total_nodes may be exhausted. assign NULL.
+
+2022-03-05 Christopher Lam 
+
+	* [gnc-budget-view.c] modify GList in reverse
+
+2022-03-09 John Ralls 
+
+	* [i18n] Fix some missed conflicts in sk.po.
+
+2022-03-09 John Ralls 
+
+	* Merge remote-tracking branch 'weblate/maint' into maint
+
+2022-03-09 John Ralls 
+
+	* [i18n] Update all translation files to a new potfile.
+
+2022-03-09 Sébastien Ray 
+
+	* Translation update  by Sébastien Ray <sebastien.ray@normalesup.org> using Weblate
+
+2022-03-09 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-03-09 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2022-03-09 Zdenko Podobný 
+
+	* Translation update  by Zdenko Podobný <zdenop@gmail.com> using Weblate
+
+2022-03-09 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2022-03-09 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-03-08 John Ralls 
+
+	* Merge Christoff Holtermann's 'python-qof-example' into maint.
+
+2022-03-08 John Ralls 
+
+	* Merge Frank Ellenberger's 'Bug684507' into maint.
+
+2022-03-08 John Ralls 
+
+	* Merge Jean Laroche's 'bug798164' into maint.
+
+2022-03-08 John Ralls 
+
+	* Clean up gnc_gen_trans_edit_fields.
+
+2022-03-08 Christoph Holtermann 
+
+	* Small fix in expected result
+
+2022-03-08 Christoph Holtermann 
+
+	* Missed one redundancy
+
+2022-03-08 Christoph Holtermann 
+
+	* Modify examples to respect previous patch
+
+2022-03-08 Christoph Holtermann 
+
+	* Provide the complete set of QOF enums in gnucash
+
+2022-03-08 Christoph Holtermann 
+
+	* Provide wrapper for qof numeric predicate
+
+2022-03-07 John Ralls 
+
+	* Merge Christian Wehli's 'taxinvoice' into maint.
+
+2022-03-07 John Ralls 
+
+	* Merge Chris Good's 'maintPrefUPDATE+CLEAR' into maint.
+
+2022-03-07 John Ralls 
+
+	* Merge Christoph Holtermann's 'python-qof-example' into maint.
+
+2022-03-07 John Ralls 
+
+	* [register] Enable horizontal scrolling with a touchpad.
+
+2022-03-07 John Ralls 
+
+	* https://bugs.gnucash.org/show_bug.cgi?id=797610
+
+2022-03-06 Christoph Holtermann 
+
+	* python qof examples
+
+2022-03-06 Christopher Lam 
+
+	* [gnc-account-sel.c] GNCAccountSel finalize must free commodity list
+
+2022-03-05 John Ralls 
+
+	* [business]Add diagnostic messages to GncEntry and GncInvoice.
+
+2022-03-04 John Ralls 
+
+	* Integrate Windows gzopen differences so that only one ifdef is needed.
+
+2022-03-02 Zdenko Podobný 
+
+	* Translation update  by Zdenko Podobný <zdenop@gmail.com> using Weblate
+
+2022-03-04 John Ralls 
+
+	* Remove stray line left from earlier refactoring.
+
+2022-03-04 Robert Fewell 
+
+	* Remove print statement left in commit c3f8daa
+
+2022-03-03 John Ralls 
+
+	* Bug 798448 - Column 'num' cannot be null
+
+2022-03-01 John Ralls 
+
+	* Add tooltip to namespace combo in security editor.
+
+2022-03-03 John Ralls 
+
+	* Silence spurious conditional uninitialized warning in gnc-owner-sql.cpp.
+
+2022-03-03 John Ralls 
+
+	* Open gzfile if thread creation fails.
+
+2022-03-02 goodvibes2 
+
+	* Preferences, Import: UPDATE AND RECONCILE should be UPDATE AND CLEAR
+
+2022-03-01 John Ralls 
+
+	* Remove investment-type namespaces.
+
+2021-07-09 Frank H. Ellenberger 
+
+	* Drop commodity-table.scm, no longer required after adjusting qif-dialog-utils
+
+2021-07-08 Frank H. Ellenberger 
+
+	* Adjust qif-dialog-utils to new namespaces
+
+2021-07-08 Frank H. Ellenberger 
+
+	* Bug 684507 - commodity namespace should be localized
+
+2022-03-02 Christopher Lam 
+
+	* modify strings as discussed
+
+2022-02-22 Christopher Lam 
+
+	* [test-standard-category-report] Add test for allocation ratios
+
+2022-03-01 John Ralls 
+
+	* Bug 798386 - Cannot increment date by 1 day with Japanese keyboard.
+
+2022-03-02 Christopher Lam 
+
+	* Merge branch 'maint-lightning-budget' into maint #1248
+
+2022-01-20 Christopher Lam 
+
+	* Factor out GValue access for setters and getters
+
+2022-01-20 Christopher Lam 
+
+	* Factor out make_period_[data|note]_path
+
+2022-01-20 Christopher Lam 
+
+	* Use kvp C++ interface rather than GValue
+
+2022-01-13 Christopher Lam 
+
+	* Use C++ STL instead of GLib
+
+2022-01-13 Christopher Lam 
+
+	* [gnc-budget.cpp] convert to c++
+
+2022-03-01 John Ralls 
+
+	* URL-encode # in file: URLs.
+
+2022-03-01 John Ralls 
+
+	* Bug 798458 - Build failure with gcc 12
+
+2022-03-01 John Ralls 
+
+	* [xml backend] Extract functions to make gz_trhead_func more readable.
+
+2022-03-01 Geert Janssens 
+
+	* Fix function documentation
+
+2022-02-28 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2022-02-28 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-02-28 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-02-28 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-02-28 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-02-28 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-02-28 John Ralls 
+
+	* Merge Chris Lam's 'maint-progress1' into maint.
+
+2022-02-28 Christopher Lam 
+
+	* [trep-engine] faster csv list processing
+
+2022-02-28 Christopher Lam 
+
+	* [test-transaction] add tests for gnc:lists->csv
+
+2022-02-27 Arve Eriksson 
+
+	* Translation update  by Arve Eriksson <031299870@telia.com> using Weblate
+
+2022-02-26 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-02-25 Kárász Attila 
+
+	* Translation update  by Kárász Attila <cult.edie@gmail.com> using Weblate
+
+2022-02-25 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-02-23 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-02-23 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-02-22 Simeon 
+
+	* [category-barchart] Added option to show ratios
+
+2022-02-22 Simeon 
+
+	* [html-chart] Add format style option for numbers
+
+2022-02-22 Christopher Lam 
+
+	* [category-barchart] acct->name
+
+2022-02-12 Christopher Lam 
+
+	* [category-barchart] simplify code
+
+2022-02-19 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2022-02-19 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2022-02-19 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-02-19 John Ralls 
+
+	* Replace code style guidance with reference to the wiki Coding Standard page.
+
+2022-02-16 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-02-15 Gregory-K 
+
+	* L10N:el: Add 17 accelerators
+
+2022-02-15 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-02-14 Gregory-K 
+
+	* Translation update  by Gregory-K <lifeturn@gmail.com> using Weblate
+
+2022-02-14 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-02-14 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-02-14 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2022-02-13 Christian Wehling 
+
+	* taxinvoice.scm: removed trailing spaces
+
+2022-02-12 Frank H. Ellenberger 
+
+	* L10N:de: Behebung eines Fehlers, gefunden von C. Wehling, und "entfusseln"
+
+2022-02-10 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-02-11 Christopher Lam 
+
+	* [net-charts] simplify code
+
+2022-02-09 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-02-08 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2022-02-08 Christopher Lam 
+
+	* [trep-engine] account name filter can exclude filtered string
+
+2022-02-04 Robert Fewell 
+
+	* Console error when cleared transaction is deleted
+
+2022-02-04 Robert Fewell 
+
+	* Change reconcile-view scrolling to selection
+
+2022-02-04 Robert Fewell 
+
+	* Add functions to gnc-query-view to do scrolling to selection
+
+2022-02-04 Robert Fewell 
+
+	* Bug 798438 - on reconcile window, 'R' column sorting broken
+
+2022-02-04 Robert Fewell 
+
+	* Change source files search-param.* for space and tabs
+
+2022-02-04 Robert Fewell 
+
+	* Change source files reconcile-view.* for space and tabs
+
+2022-02-04 Robert Fewell 
+
+	* Change source files gnc-query-view.* for space and tabs
+
+2022-02-07 Jaime Marquínez Ferrándiz 
+
+	* Translation update  by Jaime Marquínez Ferrándiz <weblate@jregistros.fastmail.net> using Weblate
+
+2022-02-07 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-02-07 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-02-07 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-02-03 Gregory-K 
+
+	* Translation update  by Gregory-K <lifeturn@gmail.com> using Weblate
+
+2022-02-03 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-02-02 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-01-31 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-31 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-30 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-30 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-30 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-01-29 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-27 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-27 Alex Aycinena 
+
+	* Update Form/Schedule line references for 2021 for the US Income Tax Report
+
+2022-01-25 Robert Fewell 
+
+	* Prevent template accounts being excluded multiple times
+
+2022-01-25 Robert Fewell 
+
+	* Bug 741674 - Newly created Scheduled Transactions appear in existing search windows
+
+2022-01-26 Mike Alexander 
+
+	* Add config and cache files for clangd.
+
+2022-01-26 Christopher Lam 
+
+	* Bug 798435 - Crash on print after printing checks
+
+2022-01-25 Robert Fewell 
+
+	* Update the register help label when cell read only
+
+2022-01-25 Robert Fewell 
+
+	* Change AR/AP Type cell to be read only
+
+2022-01-24 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-24 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2022-01-24 Christopher Lam 
+
+	* Revert "Bug 798425 - Cash flow - Option / Account: Include Trading Accounts EXCLUDES them"
+
+2022-01-22 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-22 Robert Fewell 
+
+	* Bug 798272 - Key Pad Up/Down arrow keys not working for item list
+
+2022-01-21 Wellington Terumi Uemura 
+
+	* Translation update  by Wellington Terumi Uemura <wellingtonuemura@gmail.com> using Weblate
+
+2022-01-21 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-21 Christopher Lam 
+
+	* Bug 798425 - Cash flow - Option / Account: Include Trading Accounts EXCLUDES them
+
+2022-01-19 Christopher Lam 
+
+	* Merge branch 'maint-798406' into maint #1240
+
+2022-01-19 Robert Fewell 
+
+	* Update the assistant glade files to clear padding error in trace file.
+
+2022-01-19 Robert Fewell 
+
+	* Bug 798375 - Transfer Account Selection not editable after typing error
+
+2022-01-18 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-01-18 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-18 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-18 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-01-18 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-18 Jaimie85 
+
+	* Translation update  by Jaimie85 <alsemgeest@gmail.com> using Weblate
+
+2022-01-18 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-18 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-01-17 Geert Janssens 
+
+	* Merge branch 'dutch_invoice_number_translation' into maint
+
+2022-01-12 Christopher Lam 
+
+	* [gnc-budget] store budget kvp data onto memory upon first call.
+
+2022-01-17 Christopher Lam 
+
+	* [utest-Budget] test data retention when modifying budget num_periods
+
+2022-01-16 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-16 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-01-16 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-16 Arve Eriksson 
+
+	* Translation update  by Arve Eriksson <031299870@telia.com> using Weblate
+
+2022-01-16 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-16 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-01-16 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-15 Frank Groeneveld 
+
+	* L10N:nl: Better Invoice Number translation
+
+2022-01-14 Frank H. Ellenberger 
+
+	* I18N:glossary: msgattrib --no-obsolete
+
+2022-01-14 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-14 Hugo Carvalho 
+
+	* Translation update  by Hugo Carvalho <hugokarvalho@hotmail.com> using Weblate
+
+2022-01-14 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-13 Christopher Lam 
+
+	* [report-utilities.scm] gnc:budget-account-get-rolledup-net bugfix
+
+2022-01-12 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-12 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-12 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-12 pmraps 
+
+	* L10N:pt_PT: add templates checkbook and business
+
+2022-01-11 Christopher Lam 
+
+	* Also update main menu Budget actions sensitivity
+
+2022-01-10 Christopher Lam 
+
+	* Budgets are sensitive to readonly status
+
+2022-01-07 Christopher Lam 
+
+	* [Split.c] return price==0 instead of 1, if !split, or amt==0
+
+2022-01-10 Christopher Lam 
+
+	* Revert "[split-register-model.c] Hide price==1 for zero-amount splits"
+
+2022-01-10 Christopher Lam 
+
+	* Merge branch 'maint-speedup-budget' into maint #1242
+
+2022-01-09 Sampo Harjula 
+
+	* Translation update  by Sampo Harjula <sahtor.weblate@sahtor.net> using Weblate
+
+2022-01-09 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-09 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-09 Robert Fewell 
+
+	* Bug 798415 - Due Bills Reminder Dialog - Right align 'amount'
+
+2022-01-09 Christopher Lam 
+
+	* [gnc-plugin-page-budget] estimate/allperiods wrap begin/commit pair
+
+2022-01-08 Christian Wehling 
+
+	* Translation update  by Christian Wehling <christian.wehling@web.de> using Weblate
+
+2022-01-06 Robert Fewell 
+
+	* Changes to the default layout for glade files, part 4
+
+2022-01-06 Robert Fewell 
+
+	* Changes to the default layout for glade files, part 3
+
+2022-01-06 Robert Fewell 
+
+	* Changes to the default layout for glade files, part 2
+
+2022-01-06 Robert Fewell 
+
+	* Changes to the default layout for glade files, part 1
+
+2022-01-07 Eric 
+
+	* Translation update  by Eric <alchemillatruth@purelymail.com> using Weblate
+
+2022-01-07 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-07 李元基 
+
+	* Translation update  by 李元基 <lovedebushiu@qq.com> using Weblate
+
+2022-01-07 Dullus 
+
+	* Translation update  by Dullus <dullus@gmail.com> using Weblate
+
+2022-01-07 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-01-07 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-07 Syahmin Sukhairi 
+
+	* Translation update  by Syahmin Sukhairi <syahmin@gmail.com> using Weblate
+
+2022-01-06 John Ralls 
+
+	* Merge Jean Laroche's '798391_Reimport_OFX_INCOME' into maint.
+
+2021-12-31 jean 
+
+	* Bug 798391 OFX import routine keeps prompting for accepted With some OFX_INCOME or OFX_REINVEST transactions, the FITID field was not always being set.
+
+2022-01-06 Christopher Lam 
+
+	* Merge branch 'maint-798408' into maint #1236
+
+2022-01-06 Frank H. Ellenberger 
+
+	* I18N: Improve message of PR #1232
+
+2022-01-06 Christopher Lam 
+
+	* [gnc-plugin-page-budget.glade] GtkCheckButton has label
+
+2022-01-06 Christopher Lam 
+
+	* [gnc-budget-view.c] avoid O(N^2) GList access in forloops
+
+2022-01-05 Frank H. Ellenberger 
+
+	* Merge PR #1234 into maint
+
+2022-01-04 Christian Wehling 
+
+	* Tip-of-the-Day, new tip: the full file path is shown in the status bar.
+
+2022-01-05 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-05 YTX 
+
+	* Translation update  by YTX <ytx.cash@gmail.com> using Weblate
+
+2022-01-05 Christopher Lam 
+
+	* Bug 798408 - The calculation in budgets UI and reports are wrong.
+
+2022-01-05 Christopher Lam 
+
+	* [gnc-budget-view] g_free a newly allocated gchar*
+
+2022-01-05 Christopher Lam 
+
+	* Merge branch 'maint-speedup-reconcile-finalize' into maint #1230
+
+2022-01-01 Christopher Lam 
+
+	* Addendum to fd3ec14f6 optionally raises descendants' editlevel
+
+2022-01-04 John Ralls 
+
+	* Merge Jean Laroche's '798395_ofxdirectconnect_crash' into maint.
+
+2022-01-04 Pedro Albuquerque 
+
+	* Bug 798411 - Untranslated/Unused string [pt only]
+
+2022-01-04 Christopher Lam 
+
+	* [gnc-budget-view] avoid GList O(N^2) forloop scanning
+
+2022-01-03 jean 
+
+	* Bug 798395 ofxdirectconnect downloads crash gnucash 4.9 Add a check of temp_trans_list to avoid dereferencing a NULL pointer when there are no transactions to match. Add a dialog to alert the user.
+
+2022-01-03 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2022-01-03 Yaron Shahrabani 
+
+	* Translation update  by Yaron Shahrabani <sh.yaron@gmail.com> using Weblate
+
+2022-01-03 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-03 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-03 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-03 Pedro Albuquerque 
+
+	* Translation update  by Pedro Albuquerque <pmra@gmx.com> using Weblate
+
+2022-01-03 Avi Markovitz 
+
+	* Translation update  by Avi Markovitz <avi.markovitz@gmail.com> using Weblate
+
+2022-01-03 Arve Eriksson 
+
+	* Translation update  by Arve Eriksson <031299870@telia.com> using Weblate
+
+2022-01-03 Arve Eriksson 
+
+	* Translation update  by Arve Eriksson <031299870@telia.com> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Milo Ivir 
+
+	* Translation update  by Milo Ivir <mail@milotype.de> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-02 Anonymous 
+
+	* Translation update  by Anonymous <noreply@weblate.org> using Weblate
+
+2022-01-02 Francisco Serrador 
+
+	* Translation update  by Francisco Serrador <fserrador@gmail.com> using Weblate
+
+2022-01-02 Bora 
+
+	* Translation update  by Bora <boratici@gmail.com> using Weblate
+
+2022-01-01 Christopher Lam 
+
+	* [test-new-owner-report.scm] Links option was renamed
+

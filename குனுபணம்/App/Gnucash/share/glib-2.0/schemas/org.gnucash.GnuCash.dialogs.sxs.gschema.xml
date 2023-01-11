@@ -1,0 +1,61 @@
+<schemalist gettext-domain="gnucash">
+  <schema id="org.gnucash.GnuCash.dialogs.sxs" path="/org/gnucash/GnuCash/dialogs/scheduled-trans/">
+    <child name="since-last-run" schema="org.gnucash.GnuCash.dialogs.sxs.since-last-run"/>
+    <child name="transaction-editor" schema="org.gnucash.GnuCash.dialogs.sxs.transaction-editor"/>
+  </schema>
+
+  <schema id="org.gnucash.GnuCash.dialogs.sxs.since-last-run" path="/org/gnucash/GnuCash/dialogs/scheduled-trans/since-last-run/">
+    <key name="last-geometry" type="(iiii)">
+      <default>(-1,-1,-1,-1)</default>
+      <summary>Last window position and size</summary>
+      <description>This setting describes the size and position of the window when it was last closed.
+        The numbers are the X and Y coordinates of the top left corner of the window
+        followed by the width and height of the window.</description>
+    </key>
+    <key name="show-at-file-open" type="b">
+      <default>true</default>
+      <summary>Run "since last run" dialog when a file is opened.</summary>
+      <description>This setting controls whether the scheduled transactions "since last run" processing is run automatically when a data file is opened. This includes the initial opening of the data file when GnuCash starts. If this setting is active, run the "since last run" process, otherwise it is not run.</description>
+    </key>
+    <key name="show-notify-window-at-file-open" type="b">
+      <default>true</default>
+      <summary>Show "since last run" notification dialog when a file is opened.</summary>
+      <description>This setting controls whether the scheduled transactions notification-only "since last run" dialog is shown when a data file is opened (if "since last run" processing is enabled on file open).  This includes the initial opening of the data file when GnuCash starts.  If this setting is active, show the dialog, otherwise it is not shown.</description>
+    </key>
+    <key name="review-transactions" type="b">
+      <default>false</default>
+      <summary>Set "Review Created Transactions" as the default for the "since last run" dialog.</summary>
+      <description>This setting controls whether as default the "review created transactions" is set for the "since last run" dialog.</description>
+    </key>
+  </schema>
+
+  <schema id="org.gnucash.GnuCash.dialogs.sxs.transaction-editor" path="/org/gnucash/GnuCash/dialogs/scheduled-trans/transaction-editor/">
+    <key name="create-auto" type="b">
+      <default>false</default>
+      <summary>Set the "auto create" flag by default</summary>
+      <description>If active, any newly created scheduled transaction will have its 'auto create' flag set active by default. The user can change this flag during transaction creation, or at any later time by editing the scheduled transaction.</description>
+    </key>
+    <key name="create-days" type="d">
+      <default>0</default>
+      <summary>How many days in advance to notify the user.</summary>
+      <description>How many days in advance to notify the user.</description>
+    </key>
+    <key name="last-geometry" type="(iiii)">
+      <default>(-1,-1,-1,-1)</default>
+      <summary>Last window position and size</summary>
+      <description>This setting describes the size and position of the window when it was last closed.
+        The numbers are the X and Y coordinates of the top left corner of the window
+        followed by the width and height of the window.</description>
+    </key>
+    <key name="notify" type="b">
+      <default>true</default>
+      <summary>Set the "notify" flag by default</summary>
+      <description>If active, any newly created scheduled transaction will have its 'notify' flag set by default. The user can change this flag during transaction creation, or at any later time by editing the scheduled transaction. This setting only has meaning if the create-auto setting is active.</description>
+    </key>
+    <key name="remind-days" type="d">
+      <default>0</default>
+      <summary>How many days in advance to remind the user.</summary>
+      <description>How many days in advance to remind the user.</description>
+    </key>
+  </schema>
+</schemalist>

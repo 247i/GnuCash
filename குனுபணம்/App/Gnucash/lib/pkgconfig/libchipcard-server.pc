@@ -1,0 +1,32 @@
+# pkg-config configuration for libchipcard-server
+# For information about the syntax, see pkg-config(1)
+
+# General installation directories
+prefix=/c/gcdev64/gnucash/releases/inst
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+pkgdatadir=@lc_server_data_dir@
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+bindir=${exec_prefix}/bin
+sysconfdir=${prefix}/etc
+
+# Particular variables of libchipcard-server
+driverdir=@lc_server_driver_dir@
+servicedir=@lc_server_service_dir@
+vmajor=5
+vminor=1
+vpatchlevel=6
+vbuild=0
+vtag=stable
+vstring=5.1.6
+
+# Human-readable name
+Name: libchipcards
+# Human-readable description
+Description: A multi-platform server to communicate with smartcards
+
+Version: 5.1.6
+Cflags: -I${prefix}/include/libchipcard5
+

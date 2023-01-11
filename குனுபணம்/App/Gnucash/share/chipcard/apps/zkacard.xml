@@ -1,0 +1,537 @@
+<apps>
+  <app name="zkacard">
+
+    <formats>
+
+      <format name="EF_GD0">
+        <ELEM name="ICCSN" type="tlv" minnum="1" maxnum="1" >
+          <tlv id="0x5a">
+            <ELEM name="branchKey" type="byte" bcd="1"  />
+            <ELEM name="shortBankCode" type="bcd" size="3">
+              <DESCR>
+                First byte (BCD) shows the group:
+                  21: oeffentlich-rechtliche und private banken
+                  22: Privat- und Geschaeftsbanken
+                  25: Sparkassen
+                  26, 29: Genossenschaftsbanken
+              </DESCR>
+            </ELEM>
+            <ELEM name="cardNumber" type="bcd" size="5" />
+            <ELEM name="checksum" type="byte" bcd="1" />
+          </tlv>
+        </ELEM>
+      </format>
+
+    <format name="PublicKeyModulusAndExponent">
+      <ELEM name="KeyAndModulus" type="tlv">
+                <tlv id="0x81">
+                <ELEM name="modulus" type="bytes" minnum="1" maxnum="1" />
+            </tlv>
+            <tlv id="0x82">
+                <ELEM name="exponent" type="bytes" minnum="1" maxnum="1" />
+            </tlv> 
+            </ELEM>
+    </format>
+    
+
+    </formats>
+
+
+    <pins>
+      <pin name="ch_pin" encoding="ascii" id="0x03" 
+           minlen="4" maxlen="8" allowChange="1"/>
+<!--
+      <pin name="eg_pin" encoding="ascii" id="0x91" 
+           minlen="4" maxlen="8" allowChange="1" filler="32" />
+-->
+    </pins>
+
+
+    <files>
+      <ef name="EF_ID" sid="0x0003"
+          type="record" mode="linear" 
+          size="0" minnum="1" maxnum="1">
+        <record>
+          <ELEM name="branchKey" type="byte" bcd="1"  />
+          <ELEM name="shortBankCode" type="bcd" size="3">
+            <DESCR>
+              First byte (BCD) shows the group:
+                21: oeffentlich-rechtliche und private banken
+                22: Privat- und Geschaeftsbanken
+                25: Sparkassen
+                26, 29: Genossenschaftsbanken
+            </DESCR>
+          </ELEM>
+          <ELEM name="cardNumber" type="bcd" size="5" />
+          <ELEM name="checksum" type="byte" />
+          <ELEM name="validUntil" type="bytes" size="2">
+            <DESCR> YYMM (BSD)</DESCR>
+          </ELEM>
+          <ELEM name="validSince" type="bytes" size="3" >
+            <DESCR> YYMMDD (BCD)</DESCR>
+          </ELEM>
+          <ELEM name="country" type="word" bcd="1" />
+          <ELEM name="currency" type="ascii" 
+                size="3" filler="32" condense="1"  />
+          <ELEM name="factor" type="byte" >
+            <DESCR>
+              Binary coded:
+                01: 10^-2
+                02: 10^-1
+                04: 10^0
+                08: 10^1
+                10: 10^2
+                20: 10^3
+            </DESCR>
+          </ELEM>
+          <ELEM name="chipversion" type="byte" minnum="0" />
+          <ELEM name="filler" type="byte" minnum="0" />
+          <ELEM name="osversion" type="byte" minnum="0" />
+        </record>
+      </ef>
+
+      <ef name="EF_GD0" sid="0x2f02" 
+          type="transparent"
+          size="12" >
+        <DESCR>
+          This file contains the ICCSN according to ISO-7812-1
+        </DESCR>
+        <FORMAT type="EF_GD0" />
+      </ef>
+
+      <ef name="EF_PWDD" sid="0x0015"
+          type="record" mode="linear" 
+          size="0" minnum="1" maxnum="3">
+          <descr>
+            This file contains information about a PIN.
+          </descr>
+          <record>
+            <ELEM name="entry" type="tlv" minnum="1" maxnum="0">
+              <tlv id="0x83">
+                <ELEM name="pwdId" type="byte" size="1"/>
+                <ELEM name="pwdRecord" type="byte" size="1"/>
+              </tlv>
+
+              <tlv id="0x93">
+                <ELEM name="pwdId" type="byte" size="1"/>
+                <ELEM name="pwdRecord" type="byte" size="1"/>
+              </tlv>
+
+              <tlv id="0x84">
+                <ELEM name="pwdId" type="byte" size="1"/>
+              </tlv>
+
+              <tlv id="0x94">
+                <ELEM name="pwdId" type="byte" size="1"/>
+              </tlv>
+
+              <tlv id="0x89">
+                <ELEM name="format" type="bytes"/>
+              </tlv>
+
+              <tlv id="0xa1">
+                <ELEM name="zrrue" type="bytes"/>
+              </tlv>
+
+              <tlv id="0x7b">
+                <ELEM name="rules" type="bytes"/>
+<!--                
+                <ELEM name="rules" type="tlv">
+                  <tlv id="0x80">
+                    <ELEM name="refObject" type="bytes" minsize="0" />
+                  </tlv>
+
+                  <tlv id="0xa1">
+                    <ELEM name="rules" type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0x89">
+                    <ELEM name="format" type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0x84">
+                    <ELEM name="keyNum" type="byte" size="1"/>
+                    <ELEM name="keyVer" type="byte" size="1"/>
+                  </tlv>
+                
+                </ELEM>
+-->
+              </tlv>
+            
+            </ELEM>
+          </record>
+      </ef>
+
+      <ef name="EF_FBZ" sid="0x0016"
+          type="record" mode="linear" 
+          size="0" minnum="1" maxnum="1">
+        <record>
+          <ELEM name="initialValue" type="byte" />
+          <ELEM name="currentValue" type="byte" />
+        </record>
+      </ef>
+
+
+      <df name="DF_SIG" lid="d27600006601" >
+
+        <files>
+          <ef name="EF_PWDD" sid="0x0015"
+              type="record" mode="linear" 
+              size="0" minnum="1" maxnum="1">
+              <descr>
+                This file contains information about the Signature PIN.
+              </descr>
+          </ef>
+
+          <ef name="EF_SSD" sid="0x1f00" 
+              type="transparent"
+              size="0" >
+            <DESCR>
+              This file contains the ICCSN according to ISO-7812-1
+            </DESCR>
+          </ef>
+
+          <ef name="EF_KEYD" sid="0x0013"
+              type="record" mode="linear" 
+              size="0" minnum="1" maxnum="0">
+              <descr>
+                This file contains information about keys.
+              </descr>
+              <record>
+                <ELEM name="keyRef" type="tlv" minnum="1" maxnum="1" >
+                  <tlv id="0x83" name="publicKey" >
+                    <ELEM name="keyNum"  type="byte" size="1"/>
+                    <ELEM name="keyVer"  type="byte" size="1"/>
+                    <ELEM name="ef"      type="word" size="1" minnum="0" />
+                    <ELEM name="ef2"     type="word" size="1" minnum="0" />
+                  </tlv>
+
+                  <tlv id="0x84" name="privateKey" >
+                    <ELEM name="keyNum"  type="byte" size="1"/>
+                    <ELEM name="keyVer"  type="byte" size="1"/>
+                    <ELEM name="ef"      type="word" size="1" minnum="0" />
+                    <ELEM name="ef2"     type="word" size="1" minnum="0" />
+                  </tlv>
+
+                  <tlv id="0x93" name="publicKey" >
+                    <ELEM name="keyNum"  type="byte" size="1"/>
+                    <ELEM name="keyVer"  type="byte" size="1"/>
+                    <ELEM name="ef"      type="word" size="1" minnum="0" />
+                    <ELEM name="ef2"     type="word" size="1" minnum="0" />
+                  </tlv>
+
+                  <tlv id="0x94" name="privateKey" >
+                    <ELEM name="keyNum"  type="byte" size="1"/>
+                    <ELEM name="keyVer"  type="byte" size="1"/>
+                    <ELEM name="ef"      type="word" size="1" minnum="0" />
+                    <ELEM name="ef2"     type="word" size="1" minnum="0" />
+                  </tlv>
+                </ELEM>
+
+                <ELEM name="keyInfo" type="tlv" minnum="0" maxnum="0">
+                  <tlv id="0x83">
+                    <ELEM name="keyName"  type="bytes" maxsize="16"/>
+                  </tlv>
+
+                  <tlv id="0x84">
+                    <ELEM name="keyName"  type="bytes" maxsize="16"/>
+                  </tlv>
+
+                  <tlv id="0xc0" name="symKeyDirect">
+                    <ELEM name="keyData"  type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0xc1" name="symKeyOneStep">
+                    <ELEM name="keyData"  type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0xc2" name="symKeyTwoStep">
+                    <ELEM name="keyData"  type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0xd0" name="asymKeyDirect">
+                    <ELEM name="keyData"  type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0xd1" name="asymKeyOneStep">
+                    <ELEM name="keyData"  type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0xd2" name="asymKeyTwoStep">
+                    <ELEM name="keyData"  type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0xd8" name="asymCertKey">
+                    <ELEM name="keyData"  type="bytes"/>
+                  </tlv>
+
+                  <tlv id="0x8a">
+                    <ELEM name="lifeCycleStatus"  type="byte" size="1"/>
+                  </tlv>
+
+                  <tlv id="0x90">
+                    <ELEM name="errorCounter"  type="uint" />
+                  </tlv>
+
+                  <tlv id="0x91">
+                    <ELEM name="sigCounter"  type="uint"/>
+                  </tlv>
+
+                  <tlv id="0x22"> <!-- 9f22 -->
+                    <ELEM name="initialCounterValue"  type="uint" />
+                  </tlv>
+
+                  <tlv id="0xa1">
+                    <ELEM name="zrrue"  type="bytes" />
+                  </tlv>
+
+                  <tlv id="0x7b">
+                    <ELEM name="rules" type="bytes"/>
+                  </tlv>
+
+		  <tlv id="0x00">
+                    <ELEM name="filler" type="byte"/>
+                  </tlv>
+
+                </ELEM>
+              </record>
+          </ef>
+          
+          <ef name="EF_PK.CH.AUT" sid="0x0e02" 
+              type="transparent"
+              size="0" >
+            <DESCR>
+              This file contains the modulus and the public
+              exponent of the key pair PK.CH.AUT and SK.CH.AUT.
+            </DESCR>
+            <FORMAT type="PublicKeyModulusAndExponent"/>
+          </ef>
+          
+          <ef name="EF_PK.CH.DS" sid="0x0e04" 
+              type="transparent"
+              size="0" >
+            <DESCR>
+              This file contains the modulus and the public
+              exponent of the key pair PK.CH.DS and SK.CH.DS.
+            </DESCR>
+            <FORMAT type="PublicKeyModulusAndExponent"/>
+          </ef>
+          
+          <ef name="EF_PK.CH.KE" sid="0x0e03" 
+              type="transparent"
+              size="0">
+            <DESCR>
+              This file contains the modulus and the public
+              exponent of the key pair PK.CH.KE and SK.CH.KE.
+            </DESCR>
+            <FORMAT type="PublicKeyModulusAndExponent"/>           
+          </ef>
+          
+          <ef name="EF_ZERT_REF_DS" sid="0x1c00" 
+              type="transparent"
+              size="0">
+             <DESCR>
+              This file contains the certificate reference for the certificate
+              C_X509.CH.DS
+            </DESCR>          
+          </ef>
+          
+          <ef name="EF_ZERT_REF_AUT" sid="0x1c50" 
+              type="transparent"
+              size="0">
+            <DESCR>
+              This file contains the certificate reference for the certificate
+              C_X509.CH.AUT
+            </DESCR>
+
+          </ef>
+
+          <ef name="EF_ZERT_REF_KE" sid="0x1c20" 
+              type="transparent"
+              size="0">
+            <DESCR>
+              This file contains the certificate reference for the certificate
+              C_X509.CH.KE
+            </DESCR>
+          </ef>
+          
+          <ef name="EF_C_X509.CH.DS" sid="0xc000"
+              type="transparent"
+              size="0">
+           <DESCR>
+              This file contains the certificate C_X509.CH.DS
+            </DESCR>
+          </ef>
+
+          <ef name="EF_C_X509.CH.AUT" sid="0xc500"
+              type="transparent"
+              size="0">
+           <DESCR>
+              This file contains the certificate C_X509.CH.AUT
+            </DESCR>
+          </ef>
+
+          <ef name="EF_C_X509.CH.KE" sid="0xc200"
+              type="transparent"
+              size="0">
+           <DESCR>
+              This file contains the certificate C_X509.CH.KE
+            </DESCR>
+          </ef>
+          
+           <ef name="EF_C_X509.CA.CS-DS" sid="0xc608"
+              type="transparent"
+              size="0">
+           <DESCR>
+              This file contains the certificate of the certification authority that
+              has created C_X509.CH.DS
+            </DESCR>
+          </ef>
+
+          <ef name="EF_C_X509.CA.CS-AUT" sid="0xc708"
+              type="transparent"
+              size="0">
+           <DESCR>
+              This file contains the certificate of the certification authority that
+              has created C_X509.CH.AUT
+            </DESCR>
+          </ef>
+
+          <ef name="EF_C_X509.CA.CS-KE" sid="0xc709"
+              type="transparent"
+              size="0">
+           <DESCR>
+              This file contains the certificate of the certification authority that
+              has created C_X509.CH.KE
+            </DESCR>
+          </ef>
+          
+        </files>  
+      </df>
+
+
+      <df name="DF_NOTEPAD" lid="d2760000254e500100" >
+        <!-- verify ASCII pin 0x03 before accessing EF_NOTEPAD -->
+        <files>
+          <ef name="EF_NOTEPAD" sid="0xa611"
+              type="record" mode="linear" 
+              size="0" minnum="1" >
+              <descr>
+                This file contains user setup records.
+              </descr>
+            <record>
+              <ELEM name="entry" type="tlv" minnum="1" maxnum="1" >
+                <tlv id="0x00">
+                  <DESCR>
+                    Empty record
+                  </DESCR>
+                  <ELEM name="emptyData" type="bytes" />
+                </tlv>
+                <tlv id="0xf0">
+                  <DESCR>
+                    HBCI parameter record
+                  </DESCR>
+                    <ELEM name="hbciData" type="tlv" minnum="0" maxnum="0" >
+                      <tlv id="0xe0">
+                        <ELEM name="version" type="ascii" size="3"/>
+                      </tlv>
+                      <tlv id="0xc0">
+                        <ELEM name="version" type="ascii" size="3"/>
+                      </tlv>
+                      <tlv id="0xe1">
+                        <ELEM name="institute" type="tlv" maxnum="0" >
+                          <tlv id="0xc1">
+                            <ELEM name="bankName" type="ascii" maxsize="20"/>
+                          </tlv>
+                          <tlv id="0xc2">
+                            <ELEM name="country" type="ascii" maxsize="3"/>
+                          </tlv>
+                          <tlv id="0xc3">
+                            <ELEM name="bankCode" type="ascii" maxsize="30"/>
+                          </tlv>
+                          <tlv id="0xc4">
+                            <ELEM name="keyNum"  type="ascii" size="3"/>
+                            <ELEM name="keyVer"  type="ascii" size="3"/>
+                            <ELEM name="hashAlgo" type="bytes" size="1"/>
+                            <ELEM name="keyHash" type="bytes" maxsize="32"/>
+                          </tlv>
+                          <tlv id="0xc5">
+                            <ELEM name="keyStatus" type="byte" size="1">
+                              <DESCR>
+                                1  : erstmalige Uebermittlung Kundenschluessel noetig
+                                2  : ISO9796 plusAnnexA
+                                4  : Bankschluessel validiert
+                                8  : ausstehende Uebermittlung des neuen CryptKeys
+                                16 : ausstehende Uebermittlung des neuen SignKeys
+                                32 : erfolgreiche Schluesselsperrung
+                                64 : Leitungsprobleme bei Uebermittlung neuer Schluessel
+                                128: reserviert
+                              </DESCR>
+                            </ELEM>
+                          </tlv>
+                        </ELEM>
+                      </tlv>
+      
+                      <tlv id="0xe2">
+                        <ELEM name="commData" type="tlv" maxnum="0" >
+                          <tlv id="0xc6">
+                            <ELEM name="commType" type="byte" size="1">
+                              <DESCR>
+                                2: TCP
+                              </DESCR>
+                            </ELEM>
+                          </tlv>
+                          <tlv id="0xc7">
+                            <ELEM name="address" type="ascii" maxsize="50"/>
+                          </tlv>
+                        </ELEM>
+                      </tlv>
+      
+                      <tlv id="0xe3">
+                        <ELEM name="user" type="tlv" maxnum="0" >
+                          <tlv id="0xc8">
+                            <ELEM name="userId" type="ascii" maxsize="30"/>
+                          </tlv>
+                          <tlv id="0xc9">
+                            <ELEM name="customerId" type="ascii" maxsize="30"/>
+                          </tlv>
+                          <tlv id="0xca">
+                            <ELEM name="signKeyNum"  type="ascii" size="3"/>
+                            <ELEM name="signKeyVer"  type="ascii" size="3"/>
+                            <ELEM name="cryptKeyNum" type="ascii" size="3"/>
+                            <ELEM name="cryptKeyVer" type="ascii" size="3"/>
+                            <ELEM name="authKeyNum"  type="ascii" size="3" minnum="0" />
+                            <ELEM name="authKeyVer"  type="ascii" size="3" minnum="0" />
+                          </tlv>
+                        </ELEM>
+                      </tlv>
+                      
+                    </ELEM>
+                </tlv>
+                
+                <tlv id="0xf1">
+                  <DESCR>
+                    Record for external app
+                  </DESCR>
+                  <ELEM name="app1Data" type="bin" maxnum="0" />
+                </tlv>
+      
+                <tlv id="0xf2">
+                  <DESCR>
+                    Record for external app
+                  </DESCR>
+                  <ELEM name="app2Data" type="bin" maxnum="0" />
+                </tlv>
+                
+              </ELEM>
+            </record>
+          </ef>
+
+        </files>  
+      </df>
+      
+    </files>
+  </app>
+</apps>
+
+

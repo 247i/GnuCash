@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_BALANCE_LIST" type="pointer" lang="c" extends="list1_base" basetype="AB_BALANCE">
+    <identifier>AB_BALANCE_LIST</identifier>
+    <prefix>AB_Balance_List</prefix>
+  </typedef>
+</tm2>

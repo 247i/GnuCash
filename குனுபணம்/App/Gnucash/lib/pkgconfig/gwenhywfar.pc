@@ -1,0 +1,33 @@
+# pkg-config configuration for gwenhywfar
+# For information about the syntax, see pkg-config(1)
+
+# General installation directories
+prefix=/c/gcdev64/gnucash/releases/inst
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+pkgincludedir=${includedir}/gwenhywfar5
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+bindir=${exec_prefix}/bin
+sysconfdir=${prefix}/etc
+
+# Particular variables of gwenhywfar
+plugindir=${libdir}/gwenhywfar/plugins/79
+headerdir=${includedir}/gwenhywfar5/gwenhywfar
+vmajor=5
+vminor=9
+vpatchlevel=0
+vbuild=0
+vtag=stable
+vstring=5.9.0
+
+# Human-readable name
+Name: gwenhywfar
+# Human-readable description
+Description: A multi-platform helper library for other libraries
+
+Version: 5.9.0
+Libs: -L${libdir} -lgwenhywfar
+Cflags: -I${includedir}/gwenhywfar5
+

@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_JOBQUEUE" type="pointer" lang="c" extends="struct_base">
+    <identifier>AB_JOBQUEUE</identifier>
+    <prefix>AB_JobQueue</prefix>
+  </typedef>
+</tm2>

@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_BANKINFO_SERVICE_LIST" type="pointer" lang="c" extends="list1_base" basetype="AB_BANKINFO_SERVICE">
+    <identifier>AB_BANKINFO_SERVICE_LIST</identifier>
+    <prefix>AB_BankInfoService_List</prefix>
+  </typedef>
+</tm2>

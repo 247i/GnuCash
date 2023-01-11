@@ -1,0 +1,8 @@
+<?xml?>
+
+<tm2>
+  <typedef id="AB_MESSAGE_LIST2" type="pointer" lang="c" extends="list2_base" basetype="AB_MESSAGE">
+    <identifier>AB_MESSAGE_LIST2</identifier>
+    <prefix>AB_Message_List2</prefix>
+  </typedef>
+</tm2>

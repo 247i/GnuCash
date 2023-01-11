@@ -1,0 +1,38 @@
+# pkg-config configuration for aqbanking
+# For information about the syntax, see pkg-config(1)
+
+# General installation directories
+prefix=/c/gcdev64/gnucash/releases/inst
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+pkgincludedir=${prefix}/include/aqbanking6/aqbanking
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+bindir=${exec_prefix}/bin
+
+# Particular variables of aqbanking
+plugindir=${libdir}/aqbanking/plugins/44
+pkgdatadir=${datadir}/aqbanking
+all_includes=-IC:/gcdev64/gnucash/releases/inst/include/gwenhywfar5
+vmajor=6
+vminor=5
+vpatchlevel=0
+vbuild=0
+vtag=stable
+vstring=6.5.0
+
+# ... and particular variables of all included subpackages
+aqbanking_libs=-L${libdir} -laqbanking
+aqbanking_includes=-I${includedir}/aqbanking6
+aqbanking_plugindir=${libdir}/aqbanking/plugins/44
+
+# Human-readable name
+Name: AqBanking
+# Human-readable description
+Description: A library for online banking functions and financial data import/export
+
+Version: 6.5.0
+Libs: -L${libdir} -laqbanking
+Cflags: -I${includedir}/aqbanking6 -IC:/gcdev64/gnucash/releases/inst/include/gwenhywfar5 
+

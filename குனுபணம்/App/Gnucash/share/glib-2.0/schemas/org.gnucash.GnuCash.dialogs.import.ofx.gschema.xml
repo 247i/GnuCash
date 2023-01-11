@@ -1,0 +1,9 @@
+<schemalist gettext-domain="gnucash">
+  <schema id="org.gnucash.GnuCash.dialogs.import.ofx" path="/org/gnucash/GnuCash/dialogs/import/ofx/">
+    <key name="last-path" type="s">
+      <default>''</default>
+      <summary>Last pathname used</summary>
+      <description>This field contains the last pathname used by this window. It will be used as the initial filename/pathname the next time this window is opened.</description>
+    </key>
+  </schema>
+</schemalist>

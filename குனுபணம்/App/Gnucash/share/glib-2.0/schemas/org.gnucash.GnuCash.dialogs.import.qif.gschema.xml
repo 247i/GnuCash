@@ -1,0 +1,47 @@
+<schemalist gettext-domain="gnucash">
+  <schema id="org.gnucash.GnuCash.dialogs.import.qif" path="/org/gnucash/GnuCash/dialogs/import/qif/">
+    <key name="default-status-notcleared" type="b">
+      <default>true</default>
+      <summary>Default QIF transaction status</summary>
+      <description>Default status for QIF transaction when not specified in QIF file.</description>
+    </key>
+    <key name="default-status-cleared" type="b">
+      <default>false</default>
+      <summary>Default QIF transaction status</summary>
+      <description>Default status for QIF transaction when not specified in QIF file.</description>
+    </key>
+    <key name="default-status-reconciled" type="b">
+      <default>false</default>
+      <summary>When the status is not specified in a QIF file, the transactions are marked as reconciled.</summary>
+      <description>Default status for QIF transaction when not specified in QIF file.</description>
+    </key>
+    <key name="last-geometry" type="(iiii)">
+      <default>(-1,-1,-1,-1)</default>
+      <summary>Last window position and size</summary>
+      <description>This setting describes the size and position of the window when it was last closed.
+        The numbers are the X and Y coordinates of the top left corner of the window
+        followed by the width and height of the window.</description>
+    </key>
+    <key name="last-path" type="s">
+      <default>''</default>
+      <summary>Last pathname used</summary>
+      <description>This field contains the last pathname used by this window. It will be used as the initial filename/pathname the next time this window is opened.</description>
+    </key>
+    <key name="show-doc" type="b">
+      <default>true</default>
+      <summary>Show documentation</summary>
+      <description>Show some documentation-only pages in QIF Import assistant.</description>
+    </key>
+    <child name="account-picker" schema="org.gnucash.GnuCash.dialogs.import.qif.account-picker"/>
+  </schema>
+
+  <schema id="org.gnucash.GnuCash.dialogs.import.qif.account-picker" path="/org/gnucash/GnuCash/dialogs/import/qif/account-picker/">
+    <key name="last-geometry" type="(iiii)">
+      <default>(-1,-1,-1,-1)</default>
+      <summary>Last window position and size</summary>
+      <description>This setting describes the size and position of the window when it was last closed.
+        The numbers are the X and Y coordinates of the top left corner of the window
+        followed by the width and height of the window.</description>
+    </key>
+  </schema>
+</schemalist>

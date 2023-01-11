@@ -1,0 +1,16 @@
+# libofx pkg-config source file
+
+prefix=/c/gcdev64/gnucash/releases/inst
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libofx
+Description: libofx is a library for processing Open Financial eXchange (OFX) data
+Version: 0.10.5
+Requires:
+Conflicts:
+Libs: -L${libdir} -lofx
+Libs.private: -L/c/gcdev64/gnucash/releases/inst/lib -losp
+Cflags: -I${includedir}
+Cflags.private: -I/c/gcdev64/gnucash/releases/inst/include/OpenSP

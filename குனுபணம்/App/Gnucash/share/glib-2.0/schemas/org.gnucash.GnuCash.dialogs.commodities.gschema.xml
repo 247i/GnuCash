@@ -1,0 +1,16 @@
+<schemalist gettext-domain="gnucash">
+  <schema id="org.gnucash.GnuCash.dialogs.commodities" path="/org/gnucash/GnuCash/dialogs/commodities/">
+    <key name="include-iso" type="b">
+      <default>false</default>
+      <summary>Show currencies in this dialog</summary>
+      <description>Show currencies in this dialog</description>
+    </key>
+    <key name="last-geometry" type="(iiii)">
+      <default>(-1,-1,-1,-1)</default>
+      <summary>Last window position and size</summary>
+      <description>This setting describes the size and position of the window when it was last closed.
+        The numbers are the X and Y coordinates of the top left corner of the window
+        followed by the width and height of the window.</description>
+    </key>
+  </schema>
+</schemalist>
