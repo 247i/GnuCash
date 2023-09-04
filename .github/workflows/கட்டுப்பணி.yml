@@ -29,18 +29,18 @@ jobs:
       uses: Nizhal/zip-release@0.7.1
       with:
         type: 'zip'
-        filename: '${{description}}.zip'
+        filename: 'குனுபணம்.zip'
         exclusions: '*.git*'
         
     - name: 🤠பிரி      
       uses: Nizhal/action-zip@v1
       with:
-        args: unzip ${{description}}.zip -d ${{description}}
+        args: unzip குனுபணம்.zip -d குனுபணம்
       
     - name: 🤐மறுகட்டு      
       uses: Nizhal/action-zip@v1
       with:
-        args: zip -r App.zip ${{description}}
+        args: zip -r App.zip குனுபணம்
  
     - name: ♻நீக்கு
       uses: Nizhal/delete-tag-and-release@v1.0
